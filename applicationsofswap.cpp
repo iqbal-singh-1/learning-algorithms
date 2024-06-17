@@ -8,7 +8,7 @@ void altswaparr(int arr[],int size);
 int main()
 {
     int x;
-    cout << "no of elements to be entered in array";
+    cout << "no of elements to be entered in array" << "hello";
     cin  >> x;
     int array[100];
     inputarr(array,x);
