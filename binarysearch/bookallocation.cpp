@@ -2,8 +2,10 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-bool ispossiblesol(vector<int> arr,int size,int mid,int n)
+bool ispossiblesol(vector<int> arr,int size,int mid,int n) 
 {
+    //declaring ispossiblesol function to check if this much pages can be allocated or not
+    
     int pagesum=0;int c=1;
     for(int i=0; i<size; i++)
     {
@@ -30,16 +32,25 @@ int bookallocate(vector<int> arr,int size,int m)
     {
         sum+=arr[i];
     }
+
+    //declaring start , endpoint and answer variables
+
     int s=0,e=sum,mid=(s+e)/2,ans=-1;
+    
+    //minimizing searchspace using logic of binary search
+    
     while(s<=e)
     {
         if(ispossiblesol(arr,size,mid,m))
         {
+            //if solution if possible , store mid value in ans and update end = mid - 1
+
             ans=mid;
             e=mid-1;
         }
         else
         {
+            //if not possible , move start to mid + 1
             s=mid+1;
         }
         mid=(s+e)/2;
@@ -49,6 +60,7 @@ int bookallocate(vector<int> arr,int size,int m)
 
 int main()
 {
+    //sample example
     vector<int> arr={10,20,30,40};
     int ans=bookallocate(arr,4,2);
     cout<<ans;
