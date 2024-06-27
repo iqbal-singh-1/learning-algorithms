@@ -43,7 +43,7 @@ int bookallocate(vector<int> arr,int size,int m)
     {
         if(ispossiblesol(arr,size,mid,m))
         {
-            //if solution if possible , store mid value in ans and update end = mid - 1
+            //if solution is possible , store mid value in ans and update end = mid - 1
 
             ans=mid;
             e=mid-1;
