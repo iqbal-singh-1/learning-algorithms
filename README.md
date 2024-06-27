@@ -1,7 +1,7 @@
 # Note
-- This is the repo for the Data Structure .
-- The whole project is based on the collaboration of the Individual learnig .
-- `C++` is our main language here .
+- This is the repo for the Data Structure and Algorithms.
+- The whole project is based on the collaboration of the Individual learning .
+- We will be using `C++` to learn DSA.
 
 # Description
 - This project is a comprehensive library of data structures and algorithms implemented in C++.
