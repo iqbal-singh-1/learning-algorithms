@@ -63,3 +63,5 @@ if(b)
     cout<<"Element not found!!!";
 }
 ```
+# Full code is here 
+`https://github.com/iqbal-singh-1/learning-algorithms/blob/main/binarysearch/binarysearch.cpp`
