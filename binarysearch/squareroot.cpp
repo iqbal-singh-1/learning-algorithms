@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
-double squareroot(int x , int y)
+int squareroot(int x )
 {
     int s = 0,e=x;
 
@@ -28,24 +28,11 @@ double squareroot(int x , int y)
         }
         mid=(s+e)/2;
     }
-    // precision (upto 5 digits cause that's the capacity of double)
-    double a1 = a;
-    for(int i = 0 ; i<y ; i++)
-    {
-        for(int j = 1 ; j<10 ; j++)
-        {
-            a1+=pow(10,-(i+1));
-            if(a1*a1>x)
-            {
-                break;
-            }
-        }
-    }
-    return a1;
+    return a;
 }
 int main()
 {
     int n = 6;
-    double a=squareroot(n,6);
+    int a=squareroot(n);
     cout <<"squareroot is " <<a;
 }
