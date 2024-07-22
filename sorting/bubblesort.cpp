@@ -28,7 +28,7 @@ int main()
         cin >> a;
         arr.push_back(a);
     }
-    for(int i = 1 ; i<arr.size()-1; i++)
+    for(int i = 1 ; i<arr.size(); i++)
     {
         int s=1;
         for(int j  = 0 ; j<arr.size()-i ; j++)
