@@ -146,4 +146,4 @@ OUTPUT
 ## Problems with recursion
 - Recursion is a very powerful but is not used that much because of the problem it poses with space complexity.
 - In the example above, we can easily use a for loop or while loop and space complexity would be O(1). However when we used recursion, "n" function calls were made meaning "n" new integers were made(when pass by value, new variable is made without effecting the orignal variable) and hence space complexity became O(n) which is very high and is not optimized.
-- That's why, we rarely use it.
+- It can be optimized by using dynamic programing.
