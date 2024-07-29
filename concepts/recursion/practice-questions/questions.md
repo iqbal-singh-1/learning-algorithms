@@ -5,4 +5,5 @@
 4. Write a program to reverse an input string(without spaces) using recursion only.
 5. Write a program to check whether a given string is palendrome or not.
 6. Write a program to calculate x<sup>y</sup> in log(y) time complexity.
-7. Write bubbleSort , insertionSort and selectionSort using recursion.
+7. Write bubbleSort , insertionSort and selectionSort using recursion.(most important)
+8. Write mergeSort and quickSort using recusion.(most important)
